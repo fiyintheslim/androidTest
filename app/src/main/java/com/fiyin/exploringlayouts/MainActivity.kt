@@ -20,4 +20,7 @@ class MainActivity : AppCompatActivity() {
     fun goHome(v:View){
         setContentView(R.layout.main_menu)
     }
+    fun displayCard(v:View){
+        setContentView(R.layout.card_layout)
+    }
 }
